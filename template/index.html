@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 🔍 SEO -->
+  <meta name="description" content="Personal portfolio website showcasing projects, skills, and experience.">
+
+  <!-- 🏷️ Title -->
+  <title>Your Name | Portfolio</title>
+
+  <!-- 🎨 Styles -->
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- ⭐ Favicon -->
+  <link rel="icon" href="../assets/images/profile.jpg">
+</head>
+
+<body>
+
+<!--
+  TEMPLATE INSTRUCTIONS:
+  1. Replace all "Your Name", links, and images
+  2. Add your own projects
+  3. Update social links
+  4. Deploy using GitHub Pages
+-->
+
+<header>
+  <nav class="nav">
+    <div class="logo">Your Name</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+
+    <!-- 🔁 Replace with your profile image (recommended: 300x300) -->
+    <img src="../assets/images/profile.jpg" alt="Your Name Profile Photo" class="hero-img">
+
+    <h1>Hello, I'm <span class="accent">Your Name</span></h1>
+    <p class="subtitle">Your Subtitle</p>
+
+  </div>
+</section>
+
+<section id="about" class="container">
+  <h2>About Me</h2>
+  <p>
+    Write a short introduction about yourself. Mention your background, interests,
+    and what you are passionate about in software development.
+  </p>  
+</section>
+
+<section id="skills" class="container">
+  <h2>Skills</h2>
+
+  <div class="skills-category">
+    <h3>Programming Languages</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="../assets/icons/language1.svg" alt="Language 1 Icon">
+        <p>Language 1</p>
+      </div>
+      <div class="skill-card">
+        <img src="../assets/icons/language2.svg" alt="Language 2 Icon">
+        <p>Language 2</p>
+      </div>
+      <div class="skill-card">
+        <img src="../assets/icons/language3.svg" alt="Language 3 Icon">
+        <p>Language 3</p>
+      </div>
+      <div class="skill-card">
+        <img src="../assets/icons/language4.svg" alt="Language 4 Icon">
+        <p>Language 4</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Frameworks & Libraries</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="../assets/icons/framework1.svg" alt="Framework 1 Icon">
+        <p>Framework 1</p>
+      </div>
+      <div class="skill-card">
+        <img src="../assets/icons/framework2.svg" alt="Framework 2 Icon">
+        <p>Framework 2</p>
+      </div>
+      <div class="skill-card">
+        <img src="../assets/icons/framework3.svg" alt="Framework 3 Icon">
+        <p>Framework 3</p>
+      </div>
+      <div class="skill-card">
+        <img src="../assets/icons/framework4.svg" alt="Framework 4 Icon">
+        <p>Framework 4</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Databases</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+       <img src="../assets/icons/database1.svg" alt="Database 1 Icon">
+       <p>Database 1</p>
+     </div>
+      <div class="skill-card">
+        <img src="../assets/icons/database2.svg" alt="Database 2 Icon">
+        <p>Database 2</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="../assets/images/project1.png" alt="Project 1 Logo">
+      <h3>Project 1</h3>
+      <p>Description for Project 1.</p>
+      <a href="github-link-project-1" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <img src="../assets/images/project2.png" alt="Project 2 Logo">
+      <h3>Project 2</h3>
+      <p>Description for Project 2.</p>
+      <a href="github-link-project-2" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <img src="../assets/images/project3.png" alt="Project 3 Logo">
+      <h3>Project 3</h3>
+      <p>Description for Project 3.</p>
+      <a href="github-link-project-3" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <br>
+
+  <div class="contact-social">
+    <a href="mailto:your-email@example.com" title="Email">
+      <img src="../assets/icons/gmail.svg" alt="Email Icon" height="32">
+    </a>
+    <a href="your-linkedin-url" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+      <img src="../assets/icons/linkedin.svg" alt="LinkedIn Icon" height="32">
+    </a>
+    <a href="your-github-url" target="_blank" rel="noopener noreferrer" title="GitHub">
+      <img src="../assets/icons/github.svg" alt="GitHub Icon" height="32">
+    </a>
+  </div>
+</section>
+
+<footer>
+</footer>
+
+<!-- ⚙️ Scripts -->
+<script src="../js/index.js"></script>
+
+</body>
+</html>
